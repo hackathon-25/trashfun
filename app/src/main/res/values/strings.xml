@@ -22,5 +22,5 @@
     <string name="success_message">Registration Successful!</string>
     <string name="fail_message">Passwords Don\'t Match.</string>
     <string name="title_activity_confirm_points">ConfirmPoints</string>
-    <string name="history">March: 102 points \n February: 54 points \n January: 78 points</string>
+    <string name="history">April: 18 points \nMarch: 102 points \nFebruary: 54 points \nJanuary: 78 points</string>
 </resources>

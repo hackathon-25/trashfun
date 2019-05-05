@@ -1,9 +1,12 @@
 package com.trashfun;
 
+import android.content.Intent;
 import android.os.AsyncTask;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -35,6 +38,15 @@ public class AvailableActivity extends AppCompatActivity {
 
         fillin = findViewById(R.id.fillinAvail);
         fillin.setMovementMethod(new ScrollingMovementMethod());
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentPage = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intentPage);
+            }
+        });
     }
 
     private class LongRunningGetIO extends AsyncTask<Void, Void, String> {

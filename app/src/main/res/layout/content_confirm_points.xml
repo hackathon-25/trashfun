@@ -10,13 +10,13 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="107dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="180dp"
         android:gravity="center"
-        android:text="You have 79 points. \n Redeem?"
+        android:text="You have 79 points to redeem. \n Redeem now?"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.474"
