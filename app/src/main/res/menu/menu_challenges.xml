@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/enrolled"
+        android:title="Enrolled" />
+    <item android:id="@+id/avail"
+        android:title="Available"/>
+</menu>
